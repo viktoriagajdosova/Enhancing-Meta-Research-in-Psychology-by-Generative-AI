@@ -1,5 +1,3 @@
-<img width="468" height="485" alt="image" src="https://github.com/user-attachments/assets/a0e136ee-44a7-42aa-b196-37c048b8d804" /># 04. AI Ethics
-
 This section outlines the ethical standards, data privacy protocols, and transparency requirements for using Generative AI
 
 
