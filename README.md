@@ -38,8 +38,8 @@ This project explores how generative AI can act as a force multiplier for meta-s
 ### 📘 Foundations
 * [01. Large Language Models](foundations/01_large_language_models/README.md)
 * [02. Text Embeddings](foundations/02_embeddings/README.md)
-* [02. Prompt Engineering](foundations/03_prompt_engineering/README.md)
-* [05. AI Ethics](foundations/04_AI_ethics/README.md)
+* [03. Prompt Engineering](foundations/03_prompt_engineering/README.md)
+* [04. AI Ethics](foundations/04_AI_ethics/README.md)
 
 ### ⚙️ Pipelines
 * [01. Psychometric Analysis](pipelines/01_embedding-for-psychometrics/README.md)
