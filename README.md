@@ -21,11 +21,10 @@ This project explores how generative AI can act as a force multiplier for meta-s
 <pre>
 ├── .github/                           # Workflow configurations
 ├── foundations/                       # Guides, lessons, and theoretical explanations
-│   ├── 01_prompt_engineering/         # Text templates and examples of how to talk to the AI
+│   ├── 01_large_language_models/      # Basics on Large Language Models and Aritficial Intelligence
 │   ├── 02_embeddings/                 # Explanations of how AI reads text and matches similar words
-│   ├── 03_AI_limitations/             # Guides on AI mistakes and how humans can double-check the work
+│   ├── 03_prompt_engineering/         # Text templates and examples of how to talk to the AI
 │   └── 04_AI_ethics/                  # Rules on data privacy, safety, and declaring AI use in journals
-│   └── 05_large_language_models/      # Basics on Large Language Models and Aritficial Intelligence
 ├── pipelines/                         # Ready-to-run computer code
 │   ├── 01_embedding-for-psychometrics/# Code to analyze psychological questionnaires and survey items
 │   ├── 02_topic-modeling/             # Code to group large amounts of research papers by theme
@@ -37,11 +36,10 @@ This project explores how generative AI can act as a force multiplier for meta-s
 ## 🗂️ Project Navigation
 
 ### 📘 Foundations
-* [01. Prompt Engineering](foundations/01_prompt_engineering/README.md)
+* [01. Large Language Models](foundations/01_large_language_models/README.md)
 * [02. Text Embeddings](foundations/02_embeddings/README.md)
-* [03. AI Limitations](foundations/03_AI_limitations/README.md)
-* [04. AI Ethics](foundations/04_AI_ethics/README.md)
-* [05. Large Language Models](foundations/05_large_language_models/README.md)
+* [02. Prompt Engineering](foundations/03_prompt_engineering/README.md)
+* [05. AI Ethics](foundations/04_AI_ethics/README.md)
 
 ### ⚙️ Pipelines
 * [01. Psychometric Analysis](pipelines/01_embedding-for-psychometrics/README.md)
