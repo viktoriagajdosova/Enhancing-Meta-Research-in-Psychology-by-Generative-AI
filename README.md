@@ -32,3 +32,17 @@ This project explores how generative AI can act as a force multiplier for meta-s
 │   └── 04_data-extraction/            # Code to automatically pull numbers and details out of papers
 └── README.md                          # This main page describing the project
 </pre>
+
+## 🗂️ Project Navigation
+
+### 📘 Foundations
+* [01. Prompt Engineering](foundations/01_prompt_engineering/README.md)
+* [02. Text Embeddings](foundations/02_embeddings/README.md)
+* [03. AI Limitations](foundations/03_AI_limitations/README.md)
+* [04. AI Ethics](foundations/04_AI_ethics/README.md)
+
+### ⚙️ Pipelines
+* [01. Psychometric Analysis](pipelines/01_embedding-for-psychometrics/README.md)
+* [02. Topic Modelling](pipelines/02_topic-modelling/README.md)
+* [03. Checklist Audits](pipelines/03_checklist_audits/README.md)
+* [04. Data Extraction](pipelines/04_data-extraction/README.md)
