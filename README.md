@@ -25,7 +25,7 @@ This project explores how generative AI can act as a force multiplier for meta-s
 │   ├── 02_embeddings/                 # Explanations of how AI reads text and matches similar words
 │   ├── 03_AI_limitations/             # Guides on AI mistakes and how humans can double-check the work
 │   └── 04_AI_ethics/                  # Rules on data privacy, safety, and declaring AI use in journals
-│   └── 05_large_language_models/      # Basics on Large Language Models
+│   └── 05_large_language_models/      # Basics on Large Language Models and Aritficial Intelligence
 ├── pipelines/                         # Ready-to-run computer code
 │   ├── 01_embedding-for-psychometrics/# Code to analyze psychological questionnaires and survey items
 │   ├── 02_topic-modeling/             # Code to group large amounts of research papers by theme
