@@ -27,7 +27,7 @@ This project explores how generative AI can act as a force multiplier for meta-s
 │   └── 04_AI_ethics/                  # Rules on data privacy, safety, and declaring AI use in journals
 ├── pipelines/                         # Ready-to-run computer code
 │   ├── 01_embedding-for-psychometrics/# Code to analyze psychological questionnaires and survey items
-│   ├── 02_topic-modelling/            # Code to group large amounts of research papers by theme
+│   ├── 02_topic-modeling/             # Code to group large amounts of research papers by theme
 │   ├── 03_checklist_audits/           # Code to check if papers follow science standards
 │   └── 04_data-extraction/            # Code to automatically pull numbers and details out of papers
 └── README.md                          # This main page describing the project
@@ -43,6 +43,6 @@ This project explores how generative AI can act as a force multiplier for meta-s
 
 ### ⚙️ Pipelines
 * [01. Psychometric Analysis](pipelines/01_embedding-for-psychometrics/README.md)
-* [02. Topic Modelling](pipelines/02_topic-modelling/README.md)
+* [02. Topic Modeling](pipelines/02_topic-modeling/README.md)
 * [03. Checklist Audits](pipelines/03_checklist_audits/README.md)
 * [04. Data Extraction](pipelines/04_data-extraction/README.md)
