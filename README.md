@@ -43,6 +43,6 @@ This project explores how generative AI can act as a force multiplier for meta-s
 
 ### ⚙️ Pipelines
 * [01. Psychometric Analysis](pipelines/01_embedding-for-psychometrics/README.md)
-* [02. Topic Modeling](pipelines/02_topic-modeling/README.md)
+* [02. Topic Modeling](pipelines/02_topic-modelling/README.md)
 * [03. Checklist Audits](pipelines/03_checklist_audits/README.md)
 * [04. Data Extraction](pipelines/04_data-extraction/README.md)
