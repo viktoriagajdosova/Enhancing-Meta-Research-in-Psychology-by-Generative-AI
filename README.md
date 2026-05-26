@@ -18,8 +18,7 @@ This project explores how generative AI can act as a force multiplier for meta-s
 ---
 
 ## 📁 Repository Structure
-
-```text
+<pre>
 ├── .github/                           # Workflow configurations
 ├── foundations/                       # Guides, lessons, and theoretical explanations
 │   ├── 01_prompt_engineering/         # Text templates and examples of how to talk to the AI
@@ -32,3 +31,4 @@ This project explores how generative AI can act as a force multiplier for meta-s
 │   ├── 03_checklist_audits/           # Code to check if papers follow science standards
 │   └── 04_data-extraction/            # Code to automatically pull numbers and details out of papers
 └── README.md                          # This main page describing the project
+</pre>
