@@ -17,18 +17,18 @@ This project explores how generative AI can act as a force multiplier for meta-s
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```text
-├── .github/                            # Workflow configurations
-├── foundations/                        # Guides, lessons, and theoretical explanations
-│   ├── 01_prompt_engineering/          # Text templates and examples of how to talk to the AI
-│   ├── 02_embeddings/                  # Explanations of how AI reads text and matches similar words
-│   ├── 03_AI_limitations/              # Guides on AI mistakes and how humans can double-check the work
-│   └── 04_AI_ethics/                   # Rules on data privacy, safety, and declaring AI use in journals
-├── pipelines/                          # Ready-to-run computer code
-│   ├── 01_embedding-for-psychometrics/ # Code to analyze psychological questionnaires and survey items
-│   ├── 02_topic-modelling/             # Code to group large amounts of research papers by theme
-│   ├── 03_checklist_audits/            # Code to check if papers follow science standards
-│   └── 04_data-extraction/             # Code to automatically pull numbers and details out of papers
-└── README.md                           # This main page describing the project
+├── .github/                           # Workflow configurations
+├── foundations/                       # Guides, lessons, and theoretical explanations
+│   ├── 01_prompt_engineering/         # Text templates and examples of how to talk to the AI
+│   ├── 02_embeddings/                 # Explanations of how AI reads text and matches similar words
+│   ├── 03_AI_limitations/             # Guides on AI mistakes and how humans can double-check the work
+│   └── 04_AI_ethics/                  # Rules on data privacy, safety, and declaring AI use in journals
+├── pipelines/                         # Ready-to-run computer code
+│   ├── 01_embedding-for-psychometrics/# Code to analyze psychological questionnaires and survey items
+│   ├── 02_topic-modelling/            # Code to group large amounts of research papers by theme
+│   ├── 03_checklist_audits/           # Code to check if papers follow science standards
+│   └── 04_data-extraction/            # Code to automatically pull numbers and details out of papers
+└── README.md                          # This main page describing the project
