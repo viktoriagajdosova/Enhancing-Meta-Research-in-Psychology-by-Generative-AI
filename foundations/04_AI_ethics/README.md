@@ -1,5 +1,24 @@
-This section outlines the ethical standards, data privacy protocols, and transparency requirements for using Generative AI
 
+---
+
+**Author:** Viktória Gajdošová  
+**Last Updated:** May 2026  
+
+---
+
+## Chapter Roadmap
+
+This chapter provides a rigorous overview of global AI regulations, general ethical frameworks, and domain-specific psychological guidelines to govern the use of computational systems in scientific workflows. Click on any section below to jump directly to its content:
+
+* **[1. Introduction](#1-introduction)**
+* **[2. European and Global Guidelines](#2-european-and-global-guidelines)**
+* **[3. General AI Ethical Principles](#3-general-ai-ethical-principles)**
+* **[4. Ethical Guidelines for Development, Science, and Research](#4-ethical-guidelines-for-development-science-and-research)**
+* **[5. Ethical Considerations in Psychology and Mental Health](#5-ethical-considerations-in-psychology-and-mental-health)**
+* **[6. Open Ethical Challenges in Artificial Intelligence](#6-open-ethical-challenges-in-artificial-intelligence)**
+* **[References](#references)**
+
+---
 
 ## 1. Introduction
 
@@ -211,7 +230,3 @@ Pillay, Y. (2025). Ethical decision-making guidelines for mental health clinicia
 
 UNESCO. (2022). *Recommendation on the Ethics of Artificial Intelligence*. UNESCO Publishing. https://unesdoc.unesco.org/ark:/48223/pf0000381137
 
-
-
-**Author:** Viktória Gajdošová
-**Last Updated:** May 2026
