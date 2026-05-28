@@ -20,7 +20,6 @@ This chapter establishes the mathematical and methodological foundations of vect
 * **[7. Operational Challenges and Ethical Considerations](#7-operational-challenges-and-ethical-considerations)**
 * **[8. Practical Applications across Specialized Domains](#8-practical-applications-across-specialized-domains)**
 * **[9. Interpretability, Explainability, and Pairwise Interactions](#9-interpretability-explainability-and-pairwise-interactions)**
-* **[Chapter Bibliography](#chapter-bibliography)**
 
 ---
 
@@ -483,7 +482,7 @@ Interpretability research highlights a fundamental tension: *inherent interpreta
 
 ---
 
-## Bibliography
+## References
 
 * Abimbola, J. O., Kuaban, G. S., & Ajayi, S. A. (2026). Open-Source Embedding Models: A Comprehensive Survey of Techniques, Benchmarks, and Applications. *IEEE Access*, 14, 41284–41302. https://doi.org/10.1109/ACCESS.2026.3670100
 * Cao, H. (2024). Recent advances in text embedding: A Comprehensive Review of Top-Performing Methods on the MTEB Benchmark (arXiv:2406.01607). *arXiv*. https://doi.org/10.48550/arXiv.2406.01607
