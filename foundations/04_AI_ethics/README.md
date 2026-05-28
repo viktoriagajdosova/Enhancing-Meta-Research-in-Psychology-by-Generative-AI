@@ -16,7 +16,6 @@ This chapter provides a rigorous overview of global AI regulations, general ethi
 * **[4. Ethical Guidelines for Development, Science, and Research](#4-ethical-guidelines-for-development-science-and-research)**
 * **[5. Ethical Considerations in Psychology and Mental Health](#5-ethical-considerations-in-psychology-and-mental-health)**
 * **[6. Open Ethical Challenges in Artificial Intelligence](#6-open-ethical-challenges-in-artificial-intelligence)**
-* **[References](#references)**
 
 ---
 
