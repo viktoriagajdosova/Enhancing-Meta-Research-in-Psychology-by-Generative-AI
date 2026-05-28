@@ -133,8 +133,6 @@ Modern neural embedding models automatically learn, extract, and synthesize dens
 [Feature-Based] ───► Static (GloVe) vs. Dynamic/Contextual Encoders (BERT, GPT)
 [Fine-Tuning]   ───► Specialized Downstream Adaptations (Cross-Lingual, BioBERT)
 
----
-
 ```
 ## 4. Large Language Models and Embeddings
 
