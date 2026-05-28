@@ -150,10 +150,6 @@ Providing rich background data or structural reference criteria narrows the oper
 
 ---
 
-cat << 'EOF' >> foundations/02_prompt_engineering/README.md
-
----
-
 ## 4. Advanced Reasoning Techniques
 
 Advanced reasoning techniques move language systems beyond static, reactive text generation into structured computation, algorithmic problem-solving, and continuous self-verification. These methodologies are specifically engineered to tackle high-complexity tasks where objective accuracy, logical consistency, and multi-step planning are paramount.
