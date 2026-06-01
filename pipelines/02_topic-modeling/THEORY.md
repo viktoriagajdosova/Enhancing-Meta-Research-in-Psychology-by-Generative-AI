@@ -18,7 +18,7 @@ This chapter establishes the theoretical, mathematical, and algorithmic foundati
 * **[5. The BERTopic Pipeline](#5-the-bertopic-pipeline)**
 * **[6. Structural Outcomes of BERTopic](#6-structural-outcomes-of-bertopic)**
 * **[7. LLM Integration for Representation Refinement](#7-llm-integration-for-representation-refinement)**
-* **[8. Meta-Research and Psychometric Applications](#8-meta-research-and-psychometric-applications)**
+* **[8. Meta-Research and Psychology Research Applications](#8-meta-research-and-psychology-research-applications)**
 * **[9. Evaluation and Validation Strategies](#9-evaluation-and-validation-strategies)**
 * **[10. Empirical Best Practices](#10-empirical-best-practices)**
 
