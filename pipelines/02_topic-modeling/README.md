@@ -23,6 +23,5 @@ pipelines/02_topic-modeling/
 ├── SETUP.md                     # Installation and local execution manual
 ├── bertopic_pipeline.py         # Production-ready Python script for batch execution
 ├── bertopic_notebook.ipynb      # Google Colab notebook for interactive exploration
-├── data/
-    └── sample_data.csv          # Synthesized psychometric & meta-research texts
+├── sample_data.csv              # Sample data for use within the code
 ```
