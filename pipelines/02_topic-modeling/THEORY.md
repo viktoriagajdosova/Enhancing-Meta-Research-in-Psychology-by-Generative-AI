@@ -462,8 +462,6 @@ Executing computational topic modeling within behavioral and social science fram
 * **Implement Hierarchical Clustering Analysis:** Utilizing structured dendrograms and hierarchical clustering maps is highly recommended to visualize exactly how discrete topics link together semantically, providing clear mathematical insights into the broader narrative macro-structure of the behavioral dataset.
 
 
-cat << 'EOF' >> foundations/04_topic_modeling/THEORY.md
-
 ---
 
 ## Chapter Bibliography
