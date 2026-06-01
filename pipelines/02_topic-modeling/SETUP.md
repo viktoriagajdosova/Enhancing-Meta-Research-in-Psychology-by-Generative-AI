@@ -9,7 +9,7 @@
 
 ## Technical Environment Overview
 
-This setup manual guides you through configuring your computational environment to execute the topic modeling workflows provided in this module. 
+This setup manual guides you through configuring your computational environment to execute the topic modeling workflows provided in this module. Whole code can be found here: https://colab.research.google.com/drive/1yTRo4xLimRikVyykBknLrWnhL5hA4Duz?usp=sharing 
 
 > **Important Customization Note:** The code repositories and pipelines included in this folder (`bertopic_meta-research_pipeline.py` and `bertopic_meta-research_notebook.ipynb`) have been explicitly adapted, customized, and pre-configured for **psychological meta-research**. 
 
