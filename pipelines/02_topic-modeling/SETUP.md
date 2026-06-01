@@ -174,6 +174,7 @@ Instantiate a clean code cell at the absolute top of your notebook, paste the fo
 
 ```bash
 !pip install bertopic openai umap-learn hdbscan pandas numpy python-calamine
+```
 
 ⚠️ CRITICAL METASCIENCE BEST PRACTICE:
 Immediately after the package installer routine successfully concludes, you must completely restart the active notebook session. Navigate to the top menu and select Runtime -> Restart session (or use the shortcut Ctrl+M .). This step forces the Python compiler environment to cleanly load the newly compiled underlying C++ matrix headers for HDBSCAN, preventing downstream segmentation faults.
