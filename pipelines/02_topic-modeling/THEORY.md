@@ -199,7 +199,7 @@ To guide research configuration, topic modeling approaches are further categoriz
 
 ## 5. The BERTopic Pipeline
 
-BERTopic (Grootendorst, 2022) is a neural topic modeling framework that approaches the discovery of latent themes fundamentally as a clustering task. It distinguishes itself from conventional models like LDA by using pre-trained transformer-based language models to capture semantic relationships and context that traditional "bag-of-words" methods often disregard. More on BERTopic can be found here: https://maartengr.github.io/BERTopic/index.html
+BERTopic (Grootendorst, 2022) is a neural topic modeling framework that approaches the discovery of latent themes fundamentally as a clustering task. It distinguishes itself from conventional models like LDA by using pre-trained transformer-based language models to capture semantic relationships and context that traditional "bag-of-words" methods often disregard. More on BERTopic can be found here: https://maartengr.github.io/BERTopic/index.html and https://github.com/maartengr/bertopic
 
 ---
 
