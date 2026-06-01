@@ -11,6 +11,8 @@
 
 This module bridges the gap between text embeddings and unsupervised structural discovery. It provides a complete production pipeline and theoretical grounding for extracting latent semantic themes from extensive corpora of psychological literature.
 
+Whole code can be found here: https://colab.research.google.com/drive/1yTRo4xLimRikVyykBknLrWnhL5hA4Duz?usp=sharing
+
 
 ## Directory Structure
 
