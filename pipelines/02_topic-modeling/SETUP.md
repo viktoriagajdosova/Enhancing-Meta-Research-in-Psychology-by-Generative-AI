@@ -295,34 +295,81 @@ orchestrates the hierarchical visual stacking of the widgets and pipes them dire
 
    
 ---
+
 ## 6. Step-by-Step Google Colab Execution Manual
 
-To ensure a flawless runtime execution cycle within Google Colab without encountering environment corruption, missing compilation variables, or credential leakage, adhere strictly to the following sequential protocol:
+To guarantee a successful, error-free execution of this pipeline, follow this protocol. We have designed this sequence to ensure your environment is "clean" before the heavy statistical modeling begins.
 
-### Step 1: Provision Cloud Compute Runtime
-1. Open a clean Google Colab notebook instance.
-2. Navigate to the top application menu and click **Runtime -> Change runtime type**.
-3. Under the **Hardware accelerator** dropdown, select **T4 GPU** (or any available high-performance hardware accelerator) and click **Save**.
+---
 
-> 💡 **Why GPU Acceleration?** While the initial text embedding step requests vector generation remotely from OpenAI's API endpoints, local downstream manifold calculations executed by UMAP and density-based clustering via HDBSCAN require parallel processing capabilities to maintain efficient wall-clock execution times.
+### Step 1: Prepare the Cloud Laboratory
 
-### Step 2: Configure Cryptographic Secrets
-1. Navigate to the left-hand sidebar menu in Colab and click the **Secrets** panel (represented by the key icon 🔑).
-2. Click **Add new secret** and create a variable with the exact name: `OPENAI_API_KEY2`.
-3. Paste your active developer token into the **Value** input box.
-4. Toggle the **Notebook access** switch next to the variable to the **ON** position to grant your execution runtime secure permission to inherit the credential.
+1. **Launch:** Open a fresh Google Colab notebook instance.
+2. **Assign Computing Power:** Navigate to the top menu, select **Runtime -> Change runtime type**.
+3. **Select Hardware:** In the **Hardware accelerator** dropdown, select **T4 GPU** (or any available GPU) and click **Save**.
 
-### Step 3: Ingest Data Repository Files
-1. Click the **Files** folder icon in the left-hand sidebar menu.
-2. Drag and drop your raw spreadsheet data file (e.g., `dataset_IO.xlsx`) directly into the root storage drawer container (`/content/`).
-3. Verify that the file name and internal column labels align precisely with the parameters defined in your script's configuration block (`target_column`, `title_column`, `year_column`).
+> 💡 **Why this matters:** While your data is processed by OpenAI's servers, the complex spatial modeling (UMAP and HDBSCAN) happens on your machine. Using a GPU acts like a powerful research assistant, reducing a 20-minute wait time down to a few seconds.
 
-### Step 4: Execute Initial Dependency Assembly
-Instantiate a clean code cell at the absolute top of your notebook, paste the following shell command, and launch execution to compile the required software architecture:
+---
 
+### Step 2: Secure Your Research Credentials
+
+We never hard-code your private keys into the script. Instead, we use Google’s secure "Vault."
+
+1. Look for the **Key icon (🔑)** in the vertical sidebar on the left of your Colab screen. This is the **Secrets** panel.
+2. Click **Add new secret**.
+3. **Name:** Enter exactly `OPENAI_API_KEY2` (the code looks specifically for this name).
+4. **Value:** Paste your OpenAI API token.
+5. **Permissions:** Toggle the **Notebook access** switch to **ON**. This grants your notebook permission to "read" the key without ever displaying it in your code cells.
+
+---
+
+### Step 3: Import Your Data
+
+1. Click the **Folder icon (📁)** in the left sidebar to open the file drawer.
+2. Drag and drop your source file (e.g., `dataset_IO.xlsx`) from your local computer into the `/content/` area.
+3. **Verification:** Ensure your Excel file contains the exact column names specified in the script's configuration (e.g., `06_abstract`, `03_title`, `07_year`). If the script can't find a column, it will stop and notify you—a simple renaming of your Excel headers is usually all that’s needed.
+
+---
+
+### Step 4: Assemble the Tooling & "Refresh" the Lab
+
+Before you can run the model, you need to install the specialized computational libraries.
+
+1. Create a new code cell at the very top of your notebook.
+2. Paste the following command and hit the **Play** button:
 ```bash
 !pip install bertopic openai umap-learn hdbscan pandas numpy python-calamine
+
 ```
 
-⚠️ CRITICAL METASCIENCE BEST PRACTICE:
-Immediately after the package installer routine successfully concludes, you must completely restart the active notebook session. Navigate to the top menu and select Runtime -> Restart session (or use the shortcut Ctrl+M .). This step forces the Python compiler environment to cleanly load the newly compiled underlying C++ matrix headers for HDBSCAN, preventing downstream segmentation faults.
+
+
+> ⚠️ **THE CRITICAL RESTART:** > Once the installation finishes, **you must restart the session.** Go to **Runtime -> Restart session** (or `Ctrl+M .`).
+> *Why?* Installing these libraries adds new C++ system components that the Python environment cannot "see" until it is forced to reboot. If you skip this, the model will likely crash with a "segmentation fault." Restarting ensures the lab bench is clean and ready for work.
+
+---
+
+### Step 5: Execute Core Model Pipeline (Part 1)
+
+1. Paste the **PART 1: BERTopic** code block into a new cell.
+2. Run the cell. The console will report the progress of embedding extraction.
+3. **What to expect:** You will see interactive maps (the UMAP Atlas, Intertopic Distance Map) render directly inside the notebook.
+4. **Final Check:** Look at your file drawer. You should see a new folder named `my_stable_model` and a file called `embeddings_openai_large.npy`. These indicate your model has been saved successfully for future use.
+
+---
+
+### Step 6: Trigger the Research Gap Audit (Part 2)
+
+1. Create a new cell, paste **PART 2: ADVANCED RESEARCH GAP ANALYSIS**, and execute.
+2. This is your "analytical audit." It ignores the visual maps and focuses on the underlying Excel data.
+3. **Check your File Drawer:** Refresh the file list (click the ⟳ icon in the drawer). You will see the five generated Excel reports (`result_1` through `result_6`). Download these by clicking the three dots next to the file names.
+
+---
+
+### Step 7: Launch the Research Gap Analyzer (Part 3)
+
+1. Paste the **PART 3: APP** code block into a final cell and execute it.
+2. A custom graphical interface will appear directly below the cell.
+3. **How to use it:** Type a concept (like "Emotional Intelligence" or "Technostress") into the box and click **Analyze Topic Alignment**.
+4. The tool will instantly provide a diagnostic (🚨 Gap, 🟡 Minimal, or ✅ Established) and pull the Top 10 most relevant abstracts from your dataset, complete with **DOI links** for your rapid literature review.
