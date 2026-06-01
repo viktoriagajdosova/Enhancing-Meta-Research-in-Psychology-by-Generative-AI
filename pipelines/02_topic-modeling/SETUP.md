@@ -15,7 +15,7 @@ This setup manual guides you through configuring your computational environment 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/viktoriagajdosova/Enhancing-Meta-Research-in-Psychology-by-Generative-AI/blob/main/pipelines/02_topic-modeling/bertopic_meta-research_notebook.ipynb)
 
-> **Important Customization Note:** The code repositories and pipelines included in this folder (`bertopic_meta-research_pipeline.py` and `bertopic_meta-research_notebook.ipynb`) have been explicitly adapted, customized, and pre-configured for **psychological meta-research**. 
+> **Important Customization Note:** The code repositories and pipelines included in this folder (`bertopic_meta-research_notebook.ipynb`) have been explicitly adapted, customized, and pre-configured for **psychological meta-research**. 
 
 For general framework questions, core architectural defaults, or upstream updates unrelated to this behavioral science implementation, please consult the official open-source project channels:
 * **Official Reference Documentation:** [BERTopic Documentation](https://maartengr.github.io/BERTopic/index.html)
