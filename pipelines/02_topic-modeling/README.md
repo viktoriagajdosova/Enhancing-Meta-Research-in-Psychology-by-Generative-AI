@@ -27,5 +27,5 @@ pipelines/02_topic-modeling/
 ├── THEORY.md                    # In-depth architectural & mathematical breakdown
 ├── SETUP.md                     # Installation and execution manual on Google Colab
 ├── bertopic_notebook.ipynb      # Google Colab notebook for interactive exploration
-├── sample_data.csv              # Sample data for use within the code
+├── sample_dataset.xlsx          # Sample data for use within the code
 ```
