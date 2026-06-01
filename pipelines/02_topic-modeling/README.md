@@ -13,6 +13,8 @@ This module bridges the gap between text embeddings and unsupervised structural 
 
 Whole code can be found here: https://colab.research.google.com/drive/1yTRo4xLimRikVyykBknLrWnhL5hA4Duz?usp=sharing
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/viktoriagajdosova/Enhancing-Meta-Research-in-Psychology-by-Generative-AI/blob/main/pipelines/02_topic-modeling/bertopic_meta-research_notebook.ipynb)
+
 
 ## Directory Structure
 
