@@ -19,6 +19,7 @@ This sub-folder is organized as a self-contained production environment:
 ```text
 pipelines/02_topic-modeling/
 ├── README.md                    # Module landing page & high-level overview
+├── BERTopic_presentation.pdf    # Short intro into embeddings and BERTopic
 ├── THEORY.md                    # In-depth architectural & mathematical breakdown
 ├── SETUP.md                     # Installation and local execution manual
 ├── bertopic_pipeline.py         # Production-ready Python script for batch execution
