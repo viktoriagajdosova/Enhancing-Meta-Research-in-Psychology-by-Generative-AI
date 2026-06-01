@@ -67,8 +67,6 @@ Researchers must provide their own infrastructure API key configured specificall
 To implement this locally within the cloud instance, you must manually register your specific API token inside the Google Colab Secrets management panel (indicated by the key icon 🔑 in the left sidebar) before launching execution.
 
 
-cat << 'EOF' >> foundations/04_topic_modeling/SETUP.md
-
 ---
 
 ## 2. Pipeline Architecture: Part 1 (BERTopic Core)
@@ -147,3 +145,35 @@ $$\text{similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathb
 The top 20 most prominent research gaps—representing the lowest mutual similarity scores—are automatically printed directly to the system console for rapid diagnostic evaluation.
 
 
+---
+
+## 6. Step-by-Step Google Colab Execution Manual
+
+To ensure a flawless runtime execution cycle within Google Colab without encountering environment corruption, missing compilation variables, or credential leakage, adhere strictly to the following sequential protocol:
+
+### Step 1: Provision Cloud Compute Runtime
+1. Open a clean Google Colab notebook instance.
+2. Navigate to the top application menu and click **Runtime -> Change runtime type**.
+3. Under the **Hardware accelerator** dropdown, select **T4 GPU** (or any available high-performance hardware accelerator) and click **Save**.
+
+> 💡 **Why GPU Acceleration?** While the initial text embedding step requests vector generation remotely from OpenAI's API endpoints, local downstream manifold calculations executed by UMAP and density-based clustering via HDBSCAN require parallel processing capabilities to maintain efficient wall-clock execution times.
+
+### Step 2: Configure Cryptographic Secrets
+1. Navigate to the left-hand sidebar menu in Colab and click the **Secrets** panel (represented by the key icon 🔑).
+2. Click **Add new secret** and create a variable with the exact name: `OPENAI_API_KEY2`.
+3. Paste your active developer token into the **Value** input box.
+4. Toggle the **Notebook access** switch next to the variable to the **ON** position to grant your execution runtime secure permission to inherit the credential.
+
+### Step 3: Ingest Data Repository Files
+1. Click the **Files** folder icon in the left-hand sidebar menu.
+2. Drag and drop your raw spreadsheet data file (e.g., `dataset_IO.xlsx`) directly into the root storage drawer container (`/content/`).
+3. Verify that the file name and internal column labels align precisely with the parameters defined in your script's configuration block (`target_column`, `title_column`, `year_column`).
+
+### Step 4: Execute Initial Dependency Assembly
+Instantiate a clean code cell at the absolute top of your notebook, paste the following shell command, and launch execution to compile the required software architecture:
+
+```bash
+!pip install bertopic openai umap-learn hdbscan pandas numpy python-calamine
+
+⚠️ CRITICAL METASCIENCE BEST PRACTICE:
+Immediately after the package installer routine successfully concludes, you must completely restart the active notebook session. Navigate to the top menu and select Runtime -> Restart session (or use the shortcut Ctrl+M .). This step forces the Python compiler environment to cleanly load the newly compiled underlying C++ matrix headers for HDBSCAN, preventing downstream segmentation faults.
