@@ -199,7 +199,7 @@ To guide research configuration, topic modeling approaches are further categoriz
 
 ## 5. The BERTopic Pipeline
 
-BERTopic (Grootendorst, 2022) is a neural topic modeling framework that approaches the discovery of latent themes fundamentally as a clustering task. It distinguishes itself from conventional models like LDA by using pre-trained transformer-based language models to capture semantic relationships and context that traditional "bag-of-words" methods often disregard.
+BERTopic (Grootendorst, 2022) is a neural topic modeling framework that approaches the discovery of latent themes fundamentally as a clustering task. It distinguishes itself from conventional models like LDA by using pre-trained transformer-based language models to capture semantic relationships and context that traditional "bag-of-words" methods often disregard. More on BERTopic can be found here: https://maartengr.github.io/BERTopic/index.html
 
 ---
 
@@ -316,35 +316,37 @@ The empirical deployment of BERTopic spans across diverse sub-disciplines within
 
 ---
 
-### 8.1 Screening for Clinical Depression via Mobile Communications
+### 8.1 Screening for Clinical Depression via Mobile Communications (Chung et al., 2025)
+
 By processing open-ended text messages collected dynamically through mobile phone applications, BERTopic enables the automated detection of significant life stressors in specific populations, such as older adults.
 * **Thematic Stressor Classification:** Initial execution can isolate 16 distinct stress-related topics, which are subsequently aggregated into four higher-level macro categories: financial problems, family-oriented stressful situations, physical and mental health problems, and work-related or acute stress.
 * **Longitudinal Stressor Monitoring:** Applying the *Dynamic BERTopic* variant allows researchers to trace how these stressors change over continuous temporal horizons. Words related to chronic stressors like "economy" or "household" often appear when depression risk remains consistently high, while acute life events like "family death" appear precisely when the overall risk profile increases.
 
 ---
 
-### 8.2 Psychotherapeutic and Behavioral Diagnostics on Social Media
+### 8.2 Psychotherapeutic and Behavioral Diagnostics on Social Media (Couto et al., 2026)
+
 When exposed to unstructured, highly noisy web data environments like Reddit, BERTopic functions as a robust computational screening filter to extract latent psychological patterns from individuals with depressive disorders.
 * **Granular Theme Identification:** The neural architecture identifies clearer and more specific thematic structures than traditional frequency-based alternatives, successfully isolating critical discourses regarding mental health struggles, self-harm, weight loss journeys, and gender identity.
 * **Clinical Training and Screening Support:** This large-scale text data categorization is intended to support medical professionals by providing clean structured summaries. These aggregated outputs can be deployed for clinical training modules or used as active screening tools to inform institutional decision-making regarding public health risks.
 
 ---
 
-### 8.3 Bibliometric Mapping of the Psychological Literature
+### 8.3 Bibliometric Mapping of the Psychological Literature (Jia et al., 2025)
 Meta-research utilizes the modular pipeline of BERTopic to systematically map the structural landscape of evolving scientific disciplines by parsing extensive peer-reviewed abstract catalogs.
 * **Scientific Landscape Categorization:** When applied to analyze over 10,000 peer-reviewed article abstracts, the model identifies 27 distinct research topics, which are then clustered into seven major domains, such as "Computational Psychiatry," "Digital Mental Health Intervention," and "Human-AI Interaction".
 * **Temporal Evolution Mapping:** The pipeline enables a three-phase temporal analysis, showing how the "center of gravity" in psychological research shifts across temporal horizons. Tracking the field of AI-empowered psychology highlights a clear developmental trajectory moving from early cognitive modeling (2000–2014), through deep learning-driven prediction (2015–2019), and finally to generative AI-based intervention (2020–2024).
 
 ---
 
-### 8.4 Psychotherapy Process Research and Feature Extraction
+### 8.4 Psychotherapy Process Research and Feature Extraction (Lalk et al., 2024)
 Analyzing psychotherapy interaction transcripts via modular topic clustering reveals core therapeutic mechanics that correlate with patient clinical outcomes.
 * **Feature Extraction for Predictive Modeling:** BERTopic can extract 250 topics each for patient and therapist speech turns from dialogue streams. These calculated metrics then serve as highly precise operational features for downstream machine learning algorithms engineered to predict symptom severity and therapeutic alliance.
 * **Explainable Process Insights (XAI):** Integrating *Explainable AI (XAI)* post-hoc isolates the exact thematic variables driving the downstream network predictions. This analysis demonstrates that themes related to "health" and "negative experiencing" function as strong predictors of symptom severity, while dialogue themes like "psychotherapy framework" and "income" are explicitly associated with lower therapeutic alliance.
 
 ---
 
-### 8.5 Automating Qualitative Research and Thematic Reliability
+### 8.5 Automating Qualitative Research and Thematic Reliability (Tat & Aydogan, 2024)
 Evaluating unstructured qualitative data through BERTopic provides an automated alternative to evaluate the model's reliability in thematic extraction using text from students in an educational certificate program.
 * **Human-Algorithmic Theme Concurrence:** The algorithm successfully identifies latent topic clusters that precisely coincide with human-predefined themes, including parameters like class size, instructor competence, and communication quality.
 * **Relational and Hierarchical Discovery:** Beyond simple classification, BERTopic can be used to create similarity matrices and hierarchical clusters that expose hidden relationships between themes. This structural mapping reveals latent interactive dynamics, such as the explicit link connecting crowded classes (Topic 1) with heightened communication difficulties (Topic 0).
