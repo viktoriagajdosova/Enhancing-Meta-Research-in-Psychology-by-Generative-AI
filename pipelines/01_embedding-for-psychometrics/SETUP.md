@@ -11,13 +11,13 @@ This module provides three distinct analytical pipelines. Depending on whether y
 
 | Notebook | Focus | Method | Colab Link |
 | :--- | :--- | :--- | :--- |
-| `content_validity_notebook.ipynb` | **Content Validity** | Embedding-based alignment | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1inQUyzOv2h6CMTTgOQIhXW-Ss5GtMBXG#scrollTo=zg05ijvlTX0Z) |
-| `content_overlap_prompt_notebook.ipynb` | **Content Overlap** | LLM-based expert judgment | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17Tgb6oUht12BZbA6cEDTcb_p4z7HY4CK#scrollTo=6GBq11kTVBxg) |
-| `content_overlap_embedding_notebook.ipynb` | **Content Overlap** | Embedding-based similarity | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oNVLU_uELL6VlQgpCqLPJkHnWFOCMCJe#scrollTo=KI-EMXhzVZpY) |
+| `content_validity_notebook.ipynb` | **(1) Content Validity** | Embedding-based alignment | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1inQUyzOv2h6CMTTgOQIhXW-Ss5GtMBXG#scrollTo=zg05ijvlTX0Z) |
+| `content_overlap_prompt_notebook.ipynb` | **(2) Content Overlap** | LLM-based expert judgment | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17Tgb6oUht12BZbA6cEDTcb_p4z7HY4CK#scrollTo=6GBq11kTVBxg) |
+| `content_overlap_embedding_notebook.ipynb` | **(3) Content Overlap** | Embedding-based similarity | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oNVLU_uELL6VlQgpCqLPJkHnWFOCMCJe#scrollTo=KI-EMXhzVZpY) |
 
 
 --- 
-# Content Validity: User Guide
+# (1) Content Validity: Embedding-based alignment
 
 This code acts as a **content validator** in a single file. Its goal is to take a list of questionnaire items (e.g., a test for internet gaming disorder) and automatically determine which official diagnostic criteria (DSM-5) each item measures.
 
@@ -61,7 +61,7 @@ After running the cells (press Shift+Enter on each), the code will print two mai
 
 
 
-# Content Overlap: LLM-based expert judgment
+# (2) Content Overlap: LLM-based expert judgment
 
 This tool performs a high-level, expert-grade audit of your questionnaires. While embedding-based similarity (our "quick audit") is great for speed, this **LLM Prompting Method** serves as your "digital clinical supervisor."
 
@@ -93,9 +93,9 @@ This code acts as a **Conservative Psychometric Auditor**.
 | **LLM Prompting** | Slower | Paid | Expert-Level | Final validation & reports |
 
 
+---
 
-
-# Content Overlap: Embedding-based similarity
+# (3) Content Overlap: Embedding-based similarity
 
 This pipeline is designed for **Content Redundancy Analysis**. It compares two entire questionnaires to quantify their "semantic space" overlap, helping you identify redundancy and diagnostic coverage gaps. It works best, when you compare not very complex, nor very abstract items. 
 
