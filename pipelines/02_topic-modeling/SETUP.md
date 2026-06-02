@@ -58,7 +58,7 @@ pio.renderers.default = "colab"
 
 This configuration injects pliant widget execution directly into the cell output frames, enabling full, responsive mouse-hover mechanics and dynamic zooming across high-dimensional data atlases.
 
-Cryptographic Credential Management
+### Cryptographic Credential Management
 To maintain robust security standards and adhere to open-science data hygiene rules, the pipeline completely eliminates hardcoded API credentials. It accesses OpenAI's generative endpoints using Colab's native, isolated storage sandbox (userdata Secrets manager):
 
 ```python
