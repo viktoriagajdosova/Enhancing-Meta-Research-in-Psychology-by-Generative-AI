@@ -128,7 +128,6 @@ Once an LLM is built, it generates text during inference by calculating probabil
 | **Top-k Sampling** | Restricts the token selection pool to a fixed number (*k*) of the most likely next tokens, redistributing probabilities among them. | Introduces controlled randomness, preventing repetitive text loops while preserving structural bounds. | Automated academic drafting, literature summarization, and standard report auditing. |
 | **Top-p (Nucleus) Sampling** | Dynamically scales the selection pool based on a cumulative probability threshold (*p*). | Highly adaptive; samples from a dynamic "nucleus" of tokens, maximizing linguistic fluidity and descriptive depth. | Explanatory text synthesis, qualitative code conceptualization, and brainstorming research designs. |
 
-```
 ---
 
 ## 4. Current Taxonomy of LLMs
