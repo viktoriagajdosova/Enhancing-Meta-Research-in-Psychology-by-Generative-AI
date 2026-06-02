@@ -279,22 +279,7 @@ Every time you perform an analysis, the app logs your query, the alignment score
 
 ---
 
-> **Pro-Tip:** Run this tool for every hypothetical research question you are considering. If you find a "Confirmed Latent Gap" ($< 0.30$) with a high-quality literature set, you have found strong empirical grounds to justify a novel research study.
-
----
-
-### 💡 Execution Note for Google Colab
-
-To run this application successfully, you must execute the script block directly inside a notebook cell. The final line of code:
-
-```python
-display(header, widgets.VBox([text_input, widgets.HBox([analyze_btn, export_btn])]), output_area)
-
-```
-
-orchestrates the hierarchical visual stacking of the widgets and pipes them directly into the browser display framework, activating the live UI right below your code cell.
-
-
+> **Pro-Tip:** Run this tool for every hypothetical research question you are considering. If you find a "Confirmed Latent Gap" ($< 0.30$) with a high-quality literature set, you have found strong empirical grounds to justify a novel research study. However, it can also suggest you used different language - meaning when you are searching in abstracts, keep academic tone.
    
 ---
 
