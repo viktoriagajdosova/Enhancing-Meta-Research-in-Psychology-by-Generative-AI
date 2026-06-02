@@ -25,7 +25,7 @@ This chapter establishes the mathematical and methodological foundations of vect
 
 ## 1. What are Embeddings
 
-Based on the foundational framework established by Abimbola et al. (2026), embeddings are dense numerical vector representations that transform unstructured textual data into a continuous mathematical format capable of capturing deep semantic meaning and relational abstractions. 
+Based on the recent framework established by Abimbola et al. (2026), embeddings are dense numerical vector representations that transform unstructured textual data into a continuous mathematical format capable of capturing deep semantic meaning and relational abstractions. 
 
 This methodology operates by converting qualitative information—ranging from individual lexical items (words) and phrasal constructs to complex sentences and entire scientific documents—into dense arrays of real numbers situated within a high-dimensional vector space.
 
