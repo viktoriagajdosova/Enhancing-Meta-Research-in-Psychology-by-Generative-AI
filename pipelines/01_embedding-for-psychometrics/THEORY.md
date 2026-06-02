@@ -121,15 +121,10 @@ The integration of Large Language Models (LLMs) and semantic embeddings into psy
 * **The "Lingometrics" Critique:** Lehtonen et al. (2025) suggest that survey responses often reflect the "semantic grid" of the language itself rather than individual differences, necessitating a cautious interpretation of "latent" construct discoveries.
 
 
-### Key Takeaway
-The field is moving toward **Algorithmic Psychometrics**, where the semantic analysis of item text provides an empirical "prior" or "baseline." This allows researchers to identify problematic items, redundant constructs, and structural misfits *a priori*, significantly increasing the efficiency and conceptual clarity of psychometric scale development.
-
 ---
 # 4. Content Validity
 
 In modern psychometrics, content validity is viewed as **evidence based on test content**. It is a fundamental property evaluating whether a measurement tool adequately covers the domain of the construct it is intended to assess.
-
-
 
 ## 4.1 Foundations of Content-Oriented Evidence
 Evidence based on test content establishes the relationship between the test's content (themes, wording, format) and the targeted psychological construct.
@@ -152,13 +147,6 @@ Embeddings represent test items as high-dimensional dense vectors, allowing us t
 Current research advocates for a **Hybrid Validation Model** rather than a total replacement of human judgment:
 1. **Human Expertise:** Superior at interpreting behavioral items requiring deep contextual and cultural understanding.
 2. **AI Precision:** Superior at large-scale semantic analysis, automated flagging of construct-irrelevant variance, and pre-testing item pools before human administration.
-
-### Key Documentation Standards
-To maintain professional rigor, developers must document:
-* The **logical structure** mapping items to the content domain.
-* The **sampling strategy** used to prioritize specific areas.
-* The **qualifications of expert judges** involved in the hybrid review.
-* **Alignment evidence** between items and specifications.
 
 ---
 
