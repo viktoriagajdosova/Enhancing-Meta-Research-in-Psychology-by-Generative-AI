@@ -144,14 +144,9 @@ Failure to establish robust content evidence leads to two primary "rival hypothe
 
 ## 4.3 The Embedding-Based Paradigm Shift
 Embeddings represent test items as high-dimensional dense vectors, allowing us to quantify semantic meaning and linguistic nuances algorithmically.
-
-### Automated Item-Construct Alignment
 * **Algorithmic Mapping:** By calculating the cosine similarity between item vectors and the theoretical construct definition, we can objectively identify items that deviate from the blueprint.
 * **Scalability:** This process identifies redundancies and coverage gaps without the need for initial human response data, providing a replicable alternative to subjective panel reviews.
-
-### Precision and Objectivity
 * **Lexical Proficiency:** LLMs are particularly proficient at validating concise, trait-descriptive items (e.g., Big Five adjectives), sometimes matching or exceeding the accuracy of human validators.
-* **Advanced Recovery (SQuID):** The *Survey and Questionnaire Item Embeddings Differentials* (SQuID) method allows researchers to recover negative correlations and complex motivational structures (e.g., value theory) that raw embeddings historically struggled to represent.
 
 ## 4.4 Hybrid Validation Systems
 Current research advocates for a **Hybrid Validation Model** rather than a total replacement of human judgment:
