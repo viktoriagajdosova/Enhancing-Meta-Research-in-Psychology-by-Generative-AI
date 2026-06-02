@@ -192,11 +192,12 @@ $$\text{similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathb
 
 ### 4.5 Temporal Dynamics: The "Pulse" of the Field
 
-Instead of complex regression, the script uses **Chronological Bisection**.
-
 * **The Logic:** It splits your entire dataset into two halves based on the median publication year. It then tracks how the prevalence of every topic shifts across these two eras using the formula:
 
 $$\Delta \% = \frac{\text{Count}_{\text{Era 2}} - \text{Count}_{\text{Era 1}}}{\text{Count}_{\text{Era 1}}} \times 100$$
+
+Δ% = ((Count_Era2 - Count_Era1) / Count_Era1) * 100
+
 
 
 * **The Diagnostic Categorization:**
