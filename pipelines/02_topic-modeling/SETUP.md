@@ -196,7 +196,7 @@ $$\text{similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathb
 
 $$\Delta \% = \frac{\text{Count}_{\text{Era 2}} - \text{Count}_{\text{Era 1}}}{\text{Count}_{\text{Era 1}}} \times 100$$
 
-Δ% = ((Count_Era2 - Count_Era1) / Count_Era1) * 100
+$$Δ% = ((Count_Era2 - Count_Era1) / Count_Era1) * 100$$
 
 
 
