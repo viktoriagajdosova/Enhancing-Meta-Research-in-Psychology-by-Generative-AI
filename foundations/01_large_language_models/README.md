@@ -116,6 +116,7 @@ To transition a raw neural blueprint into a functional research tool, the archit
                                            │
                                            ▼
    [ Expert Preferences ] ──> (3) Behavioral Alignment ──> [ Deployment-Ready LLM ]
+```
 
 ### 3.3 Text Generation and Decoding Strategies
 
