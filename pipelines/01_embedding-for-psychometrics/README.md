@@ -20,9 +20,10 @@ This sub-folder is organized as a self-contained production environment:
 
 ```text
 pipelines/01_embedding-for-psychometrics/
-├── README.md                          # Module landing page & high-level overview
-├── THEORY.md                          # Problems in psychometrics & LLM applications
-├── SETUP.md                           # How to run the analysis on content validity/overlap
-├── content_validity_notebook.ipynb    # Pipeline for Content Validity using embeddings
-├── content_overlap_notebook.ipynb     # Pipeline for Content Overlap using embeddings
+├── README.md                                    # Module landing page & high-level overview
+├── THEORY.md                                    # Problems in psychometrics & LLM applications
+├── SETUP.md                                     # How to run the analysis on content validity/overlap
+├── content_validity_notebook.ipynb              # Pipeline for Content Validity using embeddings
+├── content_overlap_prompt_notebook.ipynb        # Pipeline for Content Overlap using LLMs
+├── content_overlap_embedding_notebook.ipynb     # Pipeline for Content Overlap using embeddings
 ```
