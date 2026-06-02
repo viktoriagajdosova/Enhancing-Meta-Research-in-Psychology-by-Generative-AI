@@ -28,8 +28,8 @@ This project explores how generative AI can act as a force multiplier for meta-s
 ├── pipelines/                         # Ready-to-run computer code
 │   ├── 01_embedding-for-psychometrics/# Code to analyze psychological questionnaires and survey items
 │   ├── 02_topic-modeling/             # Code to group large amounts of research papers by theme
-│   ├── 03_checklist_audits/           # Code to check if papers follow science standards
-│   └── 04_data-extraction/            # Code to automatically pull numbers and details out of papers
+│   ├── 03_checklist_audits/           # Code to check if papers follow science standards (work in progess)
+│   └── 04_data-extraction/            # Code to automatically pull details out of papers (work in progess)
 └── README.md                          # This main page describing the project
 </pre>
 
