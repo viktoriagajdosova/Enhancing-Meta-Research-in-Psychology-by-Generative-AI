@@ -187,7 +187,7 @@ Within the context of this pipeline, VC2 (Content Overlap) leverages embeddings 
 
 # 6. Application
 
-The traditional 18-step scale development process is now significantly enhanced by LLM-based agentic workflows. We map these technologies across the five core phases of psychometric development.
+The traditional 18-step scale development process (Stefana et al.) is now significantly enhanced by LLM-based agentic workflows. We map these technologies across the five core phases of psychometric development.
 
 ## 6.1 Phase 1: Preliminary Phase
 * **Need Definition (Step 1):** LLMs act as conceptual auditors, using semantic mapping to identify "Jingle/Jangle" fallacies and define the construct's nomological net.
