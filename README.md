@@ -1,6 +1,6 @@
 # Enhancing Meta-Research in Psychology via Generative AI
 
-Welcome to the official repository for sharing educational materials, tools, and methodologies developed under our research project. This initiative focuses on leveraging the capabilities of Large Language Models (LLMs) to optimize, streamline, and improve the credibility and scalability of meta-research in psychology and the broader social sciences.
+Welcome to the official repository for sharing educational materials, tools, and methodologies developed under our research project (APVV-24-0278). This initiative focuses on leveraging the capabilities of Large Language Models (LLMs) to optimize, streamline, and improve the credibility and scalability of meta-research in psychology and the broader social sciences.
 
 ---
 
@@ -12,7 +12,7 @@ This project explores how generative AI can act as a force multiplier for meta-s
 
 ### 🎯 Core Objectives
 1. **Automated Data Extraction:** Engineering modular, standardized prompt pipelines to accurately extract text, numbers, and implicit design structures from scientific literature.
-2. **Workflow Integration:** Exploring innovative applications of AI for evaluating reporting checklist compliance, tracking pre-registration deviations, validating measurement scales, and conducting automated code reviews.
+2. **Workflow Integration:** Exploring innovative applications of AI for evaluating reporting checklist compliance or validating measurement scales.
 3. **Open-Science Tooling & Education:** Providing the scientific community with open-access tools, open-source code and training materials.
 
 ---
