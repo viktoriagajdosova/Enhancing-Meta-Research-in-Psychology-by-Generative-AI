@@ -51,19 +51,7 @@ Ultimately, while topic modeling is fundamentally categorized as an exploratory 
 Topic modeling is an unsupervised machine learning and Natural Language Processing (NLP) technique designed to automatically discover latent structures or "hidden themes" within a large corpus of unstructured text (Chen et al., 2023; Hankar et al., 2025; Wu et al., 2024). Rather than relying on predefined labels, structural metadata, or a priori manual hypotheses, topic modeling processes the statistical co-occurrence of words across a dataset to identify clusters of related terms that represent interpretable semantic concepts.
 
 ---
-
-### 2.1 Core Principles and Governance Assumptions
-
-The underlying methodology of classical topic modeling is built upon two fundamental assumptions that govern how text documents and latent themes are represented mathematically:
-
-* **Documents as Topical Mixtures:** Each individual document within a collection is not viewed as belonging to a solitary category, but rather as a multi-faceted container holding various latent topics that appear in shifting proportions.
-* **Topics as Token Probability Distributions:** Each latent topic is mathematically formalized as a continuous probability distribution spread across the global vocabulary of the corpus.
-
-> **Operational Example:** Consider an automated meta-research pipeline parsing academic literature. A single journal manuscript might be characterized dynamically by its topic proportions—for instance, expressing a mixture of 60% "statistical psychometrics" and 40% "open science reporting standards." Concurrently, each topic is characterized by explicit word probabilities; a "psychometric validation" topic will exhibit high statistical probabilities for tokens such as *reliability*, *validity*, *factor*, and *alpha*.
-
----
-
-### 2.2 Evolutionary Taxonomy of Analytical Families
+### 2.1 Evolutionary Taxonomy of Analytical Families
 
 The historical development of algorithmic topic extraction can be classified into three primary technical families based on their underlying mathematical logic and parameter estimation frameworks:
 
