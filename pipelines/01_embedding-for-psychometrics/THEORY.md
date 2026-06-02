@@ -1,3 +1,6 @@
+# 01. Embeddings for Psychometrics Foundations
+---
+
 **Author:** Viktória Gajdošová  
 **Last Updated:** June 2026  
 
