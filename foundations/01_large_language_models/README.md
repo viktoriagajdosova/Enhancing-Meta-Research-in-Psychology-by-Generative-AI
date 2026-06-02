@@ -30,12 +30,12 @@ To fully grasp the technical landscape of Large Language Models (LLMs), it is ne
 
 The integration of advanced computational tools into behavioral sciences sits at the intersection of several nested fields. The table below outlines these primary disciplines from the broadest scope down to specialized models:
 
-| Discipline | Academic Definition | Application in Research Text Processing | Key Reference |
-| :--- | :--- | :--- | :--- |
-| **Artificial Intelligence (AI)** | The overarching scientific discipline aimed at mastering human intelligence and enabling machines to perform cognitive tasks such as reading, writing, and communicating like humans. | Broad automation of text sorting and logical synthesis. | Zhao et al. (2023) |
-| **Machine Learning (ML)** | A subfield of AI characterized by a paradigm shift from manually hardcoded, rule-based programming toward data-driven methodologies. | Processing linguistic information by converting raw text into numerical vectors (**input embeddings**) within a dense mathematical space where similar meanings reside close together. | Minaee et al. (2025); Raiaan et al. (2024) |
-| **Natural Language Processing (NLP)** | A pivotal discipline focused specifically on facilitating interaction between computers and human language. It is split into **Natural Language Understanding (NLU)** (comprehension) and **Natural Language Generation (NLG)** (producing coherent text). | Automating structural audits of manuscripts against reporting standards (e.g., JARS, STROBE). | Kamath et al. (2024) |
-| **Large Language Models (LLMs)** | Massive-scale, pre-trained statistical language models built on deep neural networks, defined by containing tens or hundreds of billions of parameters and trained on vast datasets of unlabeled text. | The primary generative and analytical engines used to parse, evaluate, and translate psychological scales. | Zhao et al. (2023) |
+| Discipline | Academic Definition |
+| :--- | :--- |
+| **Artificial Intelligence (AI)** | The overarching scientific discipline aimed at mastering human intelligence and enabling machines to perform cognitive tasks such as reading, writing, and communicating like humans. (Zhao et al., 2023)
+| **Machine Learning (ML)** | A subfield of AI characterized by a paradigm shift from manually hardcoded, rule-based programming toward data-driven methodologies. (Minaee et al., 2025; Raiaan et al., 2024)
+| **Natural Language Processing (NLP)** | A pivotal discipline focused specifically on facilitating interaction between computers and human language. It is split into **Natural Language Understanding (NLU)** (comprehension) and **Natural Language Generation (NLG)** (producing coherent text). (Kamath et al., 2024)
+| **Large Language Models (LLMs)** | Massive-scale, pre-trained statistical language models built on deep neural networks, defined by containing tens or hundreds of billions of parameters and trained on vast datasets of unlabeled text. (Zhao et al., 2023)
 
 ---
 
