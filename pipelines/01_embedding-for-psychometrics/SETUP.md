@@ -19,7 +19,7 @@ This module provides three distinct analytical pipelines. Depending on whether y
 --- 
 # (1) Content Validity: Embedding-based alignment
 
-This code acts as a **content validator** in a single file. Its goal is to take a list of questionnaire items (e.g., a test for internet gaming disorder) and automatically determine which official diagnostic criteria (DSM-5) each item measures.
+This code acts as a **content validator** in a single file. Its goal is to take a list of questionnaire items (e.g., a test for internet gaming disorder) and automatically determine which official diagnostic criteria (e.g. DSM-5) each item measures.
 
 
 ## 1. The Core Idea: How it "thinks"
