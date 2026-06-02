@@ -185,7 +185,7 @@ Within the context of this pipeline, VC2 (Content Overlap) leverages embeddings 
 ---
 
 
-# 6. Application: The Algorithmic Scale Development Framework
+# 6. Application
 
 The traditional 18-step scale development process is now significantly enhanced by LLM-based agentic workflows. We map these technologies across the five core phases of psychometric development.
 
