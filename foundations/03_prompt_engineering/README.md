@@ -186,12 +186,13 @@ Complex, multi-layered scientific and mathematical problems are managed by split
       ┌────────────────┼────────────────┐
       ▼                ▼                ▼
 [Subtask A]  ───>  [Subtask B]  ───>  [Subtask C]
+```
 
 * **Least-to-Most Prompting:** An autoregressive strategy where the system first lists the prerequisite sub-problems required to solve the overarching prompt, and then executes them sequentially, passing the data output of sub-problem $N$ as contextual background to solve sub-problem $N+1$.
 * **Decomposed Prompting (DECOMP):** A modular extension that uses a central coordinator model (*The Decomposer*) to break down abstract tasks into distinct sub-queries, which are then passed off to specialized task handlers, external tools, or custom sub-prompts.
 * **Skeleton-of-Thought:** A high-speed inference technique that forces the model to first sketch out a core "skeleton" (structured outline) of the response, and subsequently uses parallel API processing calls to generate the dense content blocks for each section concurrently, dropping latency metrics.
 * **Plan-and-Solve (PS):** Explicitly commands the network to isolate the core problem, devise a formal execution roadmap, and strictly execute the devised plan step-by-step, effectively mitigating early-stage token omission errors.
-```
+
 ---
 
 ### 4.4 Non-Linear Thought Exploration (Trees & Graphs)
