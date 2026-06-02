@@ -120,11 +120,11 @@ The integration of Large Language Models (LLMs) and semantic embeddings into psy
 * **Language/Model Sensitivity:** Research warns of "Model Drift" and language sensitivity (e.g., Varrasi et al., 2026), suggesting that for high-stakes research, one must document model versions, seed parameters, and utilize stable, open-source local models to ensure replicability.
 * **The "Lingometrics" Critique:** Lehtonen et al. (2025) suggest that survey responses often reflect the "semantic grid" of the language itself rather than individual differences, necessitating a cautious interpretation of "latent" construct discoveries.
 
----
+
 ### Key Takeaway
 The field is moving toward **Algorithmic Psychometrics**, where the semantic analysis of item text provides an empirical "prior" or "baseline." This allows researchers to identify problematic items, redundant constructs, and structural misfits *a priori*, significantly increasing the efficiency and conceptual clarity of psychometric scale development.
 
-
+---
 # 4. Content Validity
 
 In modern psychometrics, content validity is viewed as **evidence based on test content**. It is a fundamental property evaluating whether a measurement tool adequately covers the domain of the construct it is intended to assess.
@@ -158,13 +158,14 @@ Current research advocates for a **Hybrid Validation Model** rather than a total
 1. **Human Expertise:** Superior at interpreting behavioral items requiring deep contextual and cultural understanding.
 2. **AI Precision:** Superior at large-scale semantic analysis, automated flagging of construct-irrelevant variance, and pre-testing item pools before human administration.
 
----
 ### Key Documentation Standards
 To maintain professional rigor, developers must document:
 * The **logical structure** mapping items to the content domain.
 * The **sampling strategy** used to prioritize specific areas.
 * The **qualifications of expert judges** involved in the hybrid review.
 * **Alignment evidence** between items and specifications.
+
+---
 
 # 5. Content Overlap
 
@@ -181,7 +182,7 @@ Research indicates that commonly used depression scales often exhibit low to mod
 * **Systematic Bias in Treatment Efficacy:** Lack of overlap can bias research findings. For example, the HRSD’s heavy focus on somatic symptoms (insomnia, fatigue) may capture drug side effects as changes in depression severity, potentially biasing decades of antidepressant efficacy research.
 
 ## 5.3 Embedding-Based Detection of Redundancy
-Within the context of this pipeline, VC2 (Content Overlap) leverages embeddings to mitigate these issues:
+Within the context of this pipeline, (Content Overlap) leverages embeddings to mitigate these issues:
 * **Inter-item Similarity Matrices:** By computing distances between item vectors, we can identify clusters of items sharing high semantic similarity.
 * **Automated Pruning:** This allows for the systematic identification and removal of redundant items that measure the same specific variance, leading to more parsimonious and reliable instruments.
 
