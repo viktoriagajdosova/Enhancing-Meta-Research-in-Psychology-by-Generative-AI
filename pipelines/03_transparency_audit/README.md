@@ -12,7 +12,7 @@ This module contains an LLM agent that checks whether psychology articles share 
 
 **Whole code can be found here:** 💻 [Google Colab]( https://colab.research.google.com/drive/1WicGmaDaFApfiRWkFQFWrrp2uuTjexxi?usp=sharing)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/viktoriagajdosova/Enhancing-Meta-Research-in-Psychology-by-Generative-AI/blob/main/pipelines/02_topic-modeling/bertopic_meta-research_notebook.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/viktoriagajdosova/Enhancing-Meta-Research-in-Psychology-by-Generative-AI/blob/main/pipelines/03_transparency_audit/transparency_audit.ipynb)
 
 
 ## Directory Structure
