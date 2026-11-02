@@ -48,5 +48,5 @@ This project explores how generative AI can act as a force multiplier for meta-s
 * [02. Topic Modeling](pipelines/02_topic-modeling/README.md)
     * 📖 [Theoretical Foundations](pipelines/02_topic-modeling/THEORY.md)
     * 🛠 [Setup & Execution Manual](pipelines/02_topic-modeling/SETUP.md)
-* [03. Checklist Audits](pipelines/03_checklist_audits/README.md)
+* [03. Transparency Audit](pipelines/03_transparency_audit/README.md)
 * [04. Data Extraction](pipelines/04_data-extraction/README.md)
