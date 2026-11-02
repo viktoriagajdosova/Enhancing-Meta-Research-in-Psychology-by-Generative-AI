@@ -67,8 +67,8 @@ We also reviewed all 964 disagreements one by one and grouped them into recurrin
 | Measure | Result |
 |---|---|
 | Matches with the reference standard | 7,374 of 8,338 comparisons |
-| Overall accuracy | 88.4% (95% CI 87.7 to 89.1; article-level bootstrap 87.3 to 89.5) |
-| Accuracy excluding cells that were "not applicable" for both | 74.3% (2,784 of 3,748 cells; bootstrap CI 72.1 to 76.4) |
+| Overall accuracy | 88.4% |
+| Accuracy excluding cells that were "not applicable" for both | 74.3% (2,784 of 3,748 cells) |
 | Accuracy excluding the weakest variable (materials statement) | 90.4% (7,198 of 7,959) |
 | Variables with substantial or almost-perfect agreement (κ > 0.60) | 12 of 22 |
 
